@@ -1,0 +1,70 @@
+body {
+background-color: #f3f3f3;
+width:100%;
+margin-right: auto;
+margin-left : auto;
+text-align:center;
+font-family: "Noto Sans JP";
+}
+
+.circ{
+  position:absolute;
+  margin-right: auto;
+  margin-left : auto;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position:absolute;
+}
+
+.logo{
+  top: -120px;
+left: 0;
+right: 0;
+bottom: 0;
+  margin: auto;
+  width = 15%;
+  position:absolute;
+}
+
+body>h1{
+  font-size:40pt;
+  color:#4a4a4a;
+  margin-bottom:500px;
+  margin-top:400px;
+}
+.icon{
+;
+  text-align: center;
+  width: 50%;
+  border-radius: 50%;
+}
+
+.name{
+  margin:10px auto;
+  text-align:center;
+  font-size:35pt;
+  color:#4a4a4a;
+  background-color: #ffcd38;
+  font-weight:800;
+}
+
+.nickname{
+  text-align:center;
+  margin-top:30px;
+  font-size:15pt;
+  color:#ffcd38;
+  font-weight: 600;
+}
+
+.message{
+  width:60%;
+  text-align:center;
+  margin-right: auto;
+  margin-left : auto;
+  margin-bottom: 300px;
+  margin-top: 50px;
+  font-weight:600;
+  color:#4a4a4a;
+}
