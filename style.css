@@ -1,5 +1,4 @@
 body {
--webkit-text-size-adjust: 100%;
 background-color: #f3f3f3;
 width:100%;
 margin-right: auto;
@@ -60,6 +59,7 @@ body>h1{
 }
 
 .message{
+  -webkit-text-size-adjust: 100%;
   width:80%;
   text-align:center;
   margin-right: auto;
@@ -67,6 +67,6 @@ body>h1{
   margin-bottom: 300px;
   margin-top: 50px;
   font-weight:600;
-  font-size:120%;
+  font-size:200%;
   color:#4a4a4a;
 }
