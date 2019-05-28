@@ -6,11 +6,13 @@
     <title>EEIC名簿</title>
   </head>
 
-  <body>
+  <body id = "target">
     <img src ="circ.png", width = 50% class = "circ">
     <img src ="logo.png", width = 22% class = "logo">
     <h1>EEIC2019名簿</h1>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>
 
 jQuery.fn.highlight = function(pat) {
@@ -72,15 +74,10 @@ function doHighlight() {
    /* Append End */
 }
   </script>
-  
-  <script>
-    $(function{
-      $("#target").removeHighlight();
-    });
-  </script>
 
-<input type="text" id="word" /><input type="button" onclick="doHighlight()" value="入力された文字をハイライト" /><br />
 
+<input type="text" id="word"/><input type="button" onclick="doHighlight()" value="入力された文字をハイライト" /><br />
+<div class = "null"> </div>
     <!-- <div id = "target", class = "box"></div> -->
     <script src = 'script.js'></script>
   </body>

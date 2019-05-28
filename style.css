@@ -28,6 +28,10 @@ bottom: 0;
   position:absolute;
 }
 
+
+.null{
+  margin-bottom: 500px;
+}
 body>h1{
   font-size:40pt;
   color:#4a4a4a;
