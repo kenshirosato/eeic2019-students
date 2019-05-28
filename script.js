@@ -144,7 +144,10 @@ const CSV_FILE = [
 43609.4412,'Jaesol Ahn',,3190399,'ジェソル','https://drive.google.com/open?id=1fJMAoZko1dqd8FzfLs_BhBz8OkWanI6X','よろ',
 43610.3102,'Jaesol Ahn',,3190399,'ジェソル','https://drive.google.com/open?id=1yKe86guWKI4suVCK1T_HYGcvu2R27hMB','よろ',
 43612.3852,'タナークルイッチラット アリタット',,3190495,'バンク','https://drive.google.com/open?id=17wbqpdOySPSt7ORvMg1ZwuB2ZWLp6lIV','タイから来た留学生で、日本のことが色々わからないので 、ぜひ私と話しかけてください^_^ 興味はスポーツ系と音楽。',
-43612.5015,'鈴木優斗',,3190484,'すずく(Twitterの垢名)','https://drive.google.com/open?id=1CKyPeVrPoHbem3nQ7FtcPLUAqK9xbunc','eeicでの生活に活きるような趣味や特技は特になく、色々なゲームを浅く広く嗜む生活をしてます／家から学校まで20分かからないのに毎日遅刻しているのでなんとかしたいですねー',
+43612.5015,'鈴木優斗',,3190484,'すずく(Twitterの垢名)','https://drive.google.com/open?id=1CKyPeVrPoHbem3nQ7FtcPLUAqK9xbunc','eeicでの生活に活きるような趣味や特技は特になく、色々なゲームを浅く広く嗜む生活をしてます／家から学校まで20分かからないのに毎日遅刻しているのでなんとかしたいですねー',43612.5015,'鈴木優斗',,3190484,'すずく(Twitterの垢名)','https://drive.google.com/open?id=1CKyPeVrPoHbem3nQ7FtcPLUAqK9xbunc','eeicでの生活に活きるような趣味や特技は特になく、色々なゲームを浅く広く嗜む生活をしてます／家から学校まで20分かからないのに毎日遅刻しているのでなんとかしたいですねー',
+
+
+
 
 ];
 const STUDENT_COUNT =  (CSV_FILE.length /RAW_SIZE | 0);
