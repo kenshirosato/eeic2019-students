@@ -1,3 +1,6 @@
+//mv -f ~/ダウンロード/"eeic2019名簿作成フォーム（回答） - シート2.csv" ~/デスクトップ/eeic/meibo/"eeic2019名簿作成フ ォーム（回答） - シート2.csv"
+
+
 heroku login
 cd ~/デスクトップ/eeic/meibo/
 git add body.html && git add script.js && git add style.css && git commit -m "良い変更" && git push heroku master

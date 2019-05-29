@@ -2,7 +2,7 @@
 
 function require_auth() {
     $AUTH_USER = 'eeic2019';
-    $AUTH_PASS = './.env';
+    $AUTH_PASS = 'denkikei';
 
     header('Cache-Control: no-cache, must-revalidate, max-age=0');
     $has_supplied_credentials = !(empty($_SERVER['PHP_AUTH_USER']) && empty($_SERVER['PHP_AUTH_PW']));

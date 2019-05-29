@@ -153,6 +153,8 @@ const CSV_FILE = [
 
 
 
+
+
 ];
 const STUDENT_COUNT =  (CSV_FILE.length /RAW_SIZE | 0);
 var MEMBERS = Array(STUDENT_COUNT);
