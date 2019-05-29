@@ -31,7 +31,7 @@ const RAW_SIZE = 7;
 
 const CSV_FILE = [
 //ここにcsvファイルをコピペする
-//mv -f ./ダウンロード/eeic2019名簿作成フォーム（回答） - シート2.csv ./デスクトップ/eeic/meibo/eeic2019名簿作成フォーム（回答） - シート2.csv
+//mv -f ~/ダウンロード/"eeic2019名簿作成フォーム（回答） - シート2.csv" ~/デスクトップ/eeic/meibo/"eeic2019名簿作成フ ォーム（回答） - シート2.csv"
 43580.5417,'佐藤賢志郎',,3190474,'とうふ','https://drive.google.com/open?id=11NtvfsQNJ2uyaG6CQDbcj_Ck-2bCWXQ2','名簿を作りました。パ長をしています。趣味は料理と筋トレです。強くなりたい。EEIC最高！！！🕺🕺',
 43580.6422,'中本圭',,3190438,'けい','https://drive.google.com/open?id=1cYbr9pi7xzJVXq5Cvd0i_7bsj_8rZJwG','野球が大好きです。／1限に行くのが苦手です。／2限に行くのが苦手です。／閉館まで図書館にいるのが好きです。／いつも赤い自転車で移動しています。',
 43580.6454,'門井丈丸',,3190413,'ピカチュウ','https://drive.google.com/open?id=1BHC63T6mqqNGRcXt8_os9_WQQd6Ckv7l','英文読解が好きです．人間も好きになりたい．',
@@ -42,7 +42,7 @@ const CSV_FILE = [
 43581.0158,'秀島 宇音',,3190445,"'ひで, Takato Hideshima'",'https://drive.google.com/open?id=1bia4Gw3NVLwuKdwBpkLv_Dsa0FzPJ94z','Share your creativity with me.',
 43581.0175,'西山 晃人',,3190503,'あっきー','https://drive.google.com/open?id=1b1-UOx2pSd6t_Je3zfM9zO1pZuOA_z9f','1番好きなことは睡眠です。後はスポーツ全般好きです！特に自分でやるのが好きです！／よろしくお願いします！',
 43581.0409,'鈴木遥登',,3190483,'はると','https://drive.google.com/open?id=1u8Fm0E7T46BZAOY5nU95ugxrtfGlIora','電電／Twitter名:少年H／出身:ラブライブ！サンシャイン!!の聖地沼津／趣味:／•サッカー観戦(年間10試合程度)／応援してるチームはジュビロ磐田。サッカーはするのも好き。昔は現J3アスルクラロ沼津の下部組織で県大会優勝経験あり／•ボクシング観戦(年間3興行程度)／サッカーかボクシング好きな人いたら話しましょう‼︎／•気ままに散歩、旅行すること／／一人でいるときはぶすっとしてるけど、話せば気さくです！よろしくお願いします！',
-43581.0687,'小川 彪（おがわ ひゅう）',,3190465,'fiord（ふぃよるど）','https://drive.google.com/open?id=1gr2f-P3QyYZdMTvCLLW4m4OyihFbrynQ','世界初のバーチャルグソクムシです！(GW中に達成予定。出来たらこのコメント消して下さいm(__)m）競プロやったりCTFやったりWebやったり…誰得な情報を垂れ流していきたいと思います！',
+43581.0687,'小川 彪（おがわ ひゅう）',,3190465,'fiord（ふぃよるど）','https://drive.google.com/open?id=1gr2f-P3QyYZdMTvCLLW4m4OyihFbrynQ','世界初のバーチャルグソクムシです！競プロやったりCTFやったりWebやったり…誰得な情報を垂れ流していきたいと思います！',
 43581.0776,'山下陸',,5180318,,'https://drive.google.com/open?id=1_cTxKoY_JMM6FyviQ1oy2iYpwns_nsDh','セパタクローやってる人',
 43581.1071,'中川 紘輔',,3190436,'Twitterのアカウント名で呼ばれることが多いです','https://drive.google.com/open?id=176xQZXjvlK_lHR8C22BKssXfmlNLu4Vm',"'Wake Up, Girls!と高木美佑さんをこよなく愛しています。最近はi☆Ris、TrySail、小倉唯現場にいます。京都市伏見区出身ですが、小学校の時はマレーシアに住んでました。アピールポイントとしては、修学旅行先のマレーシア（再訪）で強盗に襲撃されて応戦し、撃退したことがあります。よろしくお願いします。'",
 43581.1465,'片山峻佑',,3190412,'片山','https://drive.google.com/open?id=1-BefjmeKILdPAJNW6SL5Zt8XmWI9N1X9','スマブラとか麻雀好きなのでやりましょう',
@@ -63,7 +63,7 @@ const CSV_FILE = [
 43583.4778,'内藤 壮俊',,3190435,'そうしゅん','https://drive.google.com/open?id=1GSQtaxzOU5BSssjUCayhbfrW3fF-bbBv','数学とかプログラミングとかが好きです。ノンリニアでゲーム作ってます。／喋るのは結構好きな方だと思う',
 43583.4940,'辻啓吾',,3190497,,'https://drive.google.com/open?id=1_pynkqCK0UVkGO35-tHdu-oU9dsBLN6r','しょうもないことが好き',
 43583.4969,'笠西 哲',,3190410,'特になし','https://drive.google.com/open?id=1_DHs_aiBhGX2Gc2JHtimDuzIH7J6JjK3','TBAというサークルでバドミントンやってます。もし他にバドしてる人がいれば御殿下とかで一緒に打ちたいです！／また鉄道旅行が好きで、夏休みなどによく18きっぷで日本各地を旅してまわっています。／これからよろしくお願いします！／Twitter: @tetsu9923',
-43583.5390,'大井元',,3190405,'げん○○、おおいちゃん','https://drive.google.com/open?id=1meLCrOlrmOLATkmH3x5nozSmcLdGI1oP','学科的に全然強くないです。興味はネットワークやIoTあたりにあります。／趣味は現在探しています。オススメがあれば教えてください。／アニメは2000後半～2010前半の作品、マンガはヒロアカ、黒執事などが好きです。／お酒弱々なので飲み会に参加するかいつも迷います。話しかけたとき答えてくれると嬉しいです。／よろしくお願いします。',
+43583.5390,'大井元',,3190405,'げん○○、おおいちゃん','https://drive.google.com/open?id=1meLCrOlrmOLATkmH3x5nozSmcLdGI1oP','工場見学の人です。御殿下に通うとここで宣言しておきます！お酒に強くなりたい...',
 43583.5469,'勝瑞雄介',,3190426,'しょーずい、ずい','https://drive.google.com/open?id=1GJZk6NqY44wN91lQ7rELnGyG_nOp6ZXs','ボードゲームやアーケードゲームが好き',
 43583.5570,'高品 剛大',,3190489,,'https://drive.google.com/open?id=15HXH8pqwiuNP7owUnNlfV3fX0fC8fWyU','デレステP',
 43583.5744,'下野明佳里',,3190480,'あかり','https://drive.google.com/open?id=1tJ3Q2aKP7FDKAIUIGZRdx1j7--GqnGYR','鹿児島出身です／音楽とお笑い好きなので好きな方いたら話しかけて下さい:)',
@@ -144,7 +144,11 @@ const CSV_FILE = [
 43609.4412,'Jaesol Ahn',,3190399,'ジェソル','https://drive.google.com/open?id=1fJMAoZko1dqd8FzfLs_BhBz8OkWanI6X','よろ',
 43610.3102,'Jaesol Ahn',,3190399,'ジェソル','https://drive.google.com/open?id=1yKe86guWKI4suVCK1T_HYGcvu2R27hMB','よろ',
 43612.3852,'タナークルイッチラット アリタット',,3190495,'バンク','https://drive.google.com/open?id=17wbqpdOySPSt7ORvMg1ZwuB2ZWLp6lIV','タイから来た留学生で、日本のことが色々わからないので 、ぜひ私と話しかけてください^_^ 興味はスポーツ系と音楽。',
-43612.5015,'鈴木優斗',,3190484,'すずく(Twitterの垢名)','https://drive.google.com/open?id=1CKyPeVrPoHbem3nQ7FtcPLUAqK9xbunc','eeicでの生活に活きるような趣味や特技は特になく、色々なゲームを浅く広く嗜む生活をしてます／家から学校まで20分かからないのに毎日遅刻しているのでなんとかしたいですねー',43612.5015,'鈴木優斗',,3190484,'すずく(Twitterの垢名)','https://drive.google.com/open?id=1CKyPeVrPoHbem3nQ7FtcPLUAqK9xbunc','eeicでの生活に活きるような趣味や特技は特になく、色々なゲームを浅く広く嗜む生活をしてます／家から学校まで20分かからないのに毎日遅刻しているのでなんとかしたいですねー',
+43612.5015,'鈴木優斗',,3190484,'すずく(Twitterの垢名)','https://drive.google.com/open?id=1CKyPeVrPoHbem3nQ7FtcPLUAqK9xbunc','eeicでの生活に活きるような趣味や特技は特になく、色々なゲームを浅く広く嗜む生活をしてます／家から学校まで20分かからないのに毎日遅刻しているのでなんとかしたいですねー',
+43613.5631,'鶴岡駿',,3190499,,'https://drive.google.com/open?id=170WQcFn9JU4YgOLTcjC0jxVAywM-mi1T','げーむしたい',
+43614.1747,'佐々木 怜音',,3190473,'レオン','https://drive.google.com/open?id=1f3yAdT2gZ_cbZcjbV50O-XTCvg6BG-nh','口だけ達者なピエロ',
+43614.3046,'金谷光一郎',,3190414,'かなや/かなやん','https://drive.google.com/open?id=1ji_4c0LeNwSvQxaWLGSpPLzABjkvJvXJ','シケ長と対立してますが、あくまでファッションであり、裏では仲良しです。／あといつもうるさくしてごめんなさい。これでも中学の頃の1/100くらいにはなりました。／あと全ての授業についていけません。みんな助けてください。',
+
 
 
 
