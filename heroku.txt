@@ -1,0 +1,3 @@
+heroku login
+cd ~/デスクトップ/eeic/meibo/
+git add body.html && git add script.js && git add style.css && git commit -m "良い変更" && git push heroku master
