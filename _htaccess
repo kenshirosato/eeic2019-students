@@ -1,8 +1,0 @@
-AuthType     Basic
-AuthName     "Authentication System"
-AuthUserFile /Users/denjo/Desktop/meibo/.htpasswd
-require valid-user
-
-<Files ~ "^\.ht">
-   deny from all
-</Files>
